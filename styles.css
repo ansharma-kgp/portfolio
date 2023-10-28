@@ -1,0 +1,242 @@
+body{
+    margin-top:0;
+    padding-top:0;
+    border-top:0;
+    background-color:rgb(26, 25, 25);
+    color:rgb(145, 245, 232);
+}
+.header{
+    width:100%;
+    position:fixed;
+    background-color:rgb(26, 25, 25);
+    padding-top:0;
+    margin-top:0;
+    border-top:0;
+}
+.front-page{
+    display:flex;
+    flex-direction:row;
+}
+
+.front-page img{
+    float:right;
+    width:90%;
+    padding-top:25%;
+    margin-right:15%;
+}
+.front-text{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left:3%;
+    margin-top:10%;
+    font-size:xx-large;;
+    width:100%;
+}
+.navbar{
+    top:0;
+    left:0;
+    width:100%;
+    background-color:rgb(84, 80, 80);
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+    margin-right:5%;
+
+}
+.navbar a{
+    font-size:1.7em;
+}
+.navbar a{
+    text-decoration:none;
+    color:white;
+    background-color:rgb(84, 80, 80);
+}
+.navbar a:hover{
+    color:white;
+    background-color:rgb(26, 25, 25);
+}
+.logo a{
+    color:white;
+    background-color:rgb(26,25,25);
+    text-decoration:none;
+}
+.logo{
+    font-size:2em;
+    margin-left:0;
+    padding-left:0;
+    padding-top:0;
+    margin-top:0;
+    border-top:0;
+    text-align:center;
+    z-index:100;
+}
+.img2{
+    float:right;
+    width:50%;
+}
+.aboutpage{
+    display:flex;
+    flex-direction:row;
+    padding:0;
+    margin:0;
+}
+.aboutpage{
+    background-color:black;
+}
+.aboutpage div{
+    font-size:x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width:100%;
+    background-image: url("code.png");
+    background-repeat:no-repeat;
+    line-height:40px;
+    padding: 0 2.5%;
+    padding-right:1%;
+}
+.achievements{
+    align-self:center;
+    width:100%;
+    background-color:aquamarine;
+    padding:0;
+    padding-top:10px;
+}
+.ach{
+    color:black;
+    width:50%;
+    background-color:aquamarine;
+    font-size:x-large;
+    text-align:center;
+    margin:auto;
+    padding:0;
+    margin-top: 0;
+    min-height:280px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.ach h1{
+    text-decoration:dotted underline;
+}
+.ach ul{
+    list-style-type:none;
+}
+.ach ul em{
+    text-decoration:underline;
+    line-height:30px;
+}
+.achievements img{
+    margin:0;
+    margin-left:0;
+    padding-left:0;
+    height:fit-content;
+    width:15%;
+    height:10%;
+    float:left;
+    margin-left: 3%;
+
+}
+.achievements img:hover{
+    width:17%;
+    height: 17%;
+    transition: 0.3s;
+}
+.skills{
+    display:grid;
+    grid-template-columns: 30px 30px 30px;
+    row-gap:30px;
+    justify-content:space-evenly;
+}
+#skills{
+    font-size:xx-large;
+}
+.skills div:hover{
+    color:white;
+    text-decoration:solid white underline;
+    
+
+}
+#projects{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+.projhead{
+    font-size:50px;
+    text-decoration: underline;
+}
+.josaa {
+    box-shadow: 0 4px 8px 0 white;
+    transition: 0.3s;
+    background-color:aquamarine;
+    color:rgb(26, 25, 25);
+    width:20%;
+    border-radius:5px;
+}
+.josaa:hover {
+    box-shadow: 0 8px 16px 0 white;
+}
+.josaatext {
+    padding: 2px 16px;
+}
+.josaa img{
+    padding-top:5%;
+}
+.portfolio {
+    box-shadow: 0 4px 8px 0 white;
+    transition: 0.3s;
+    background-color:aquamarine;
+    color:rgb(26, 25, 25);
+    width:20%;
+    border-radius:5px;
+}
+
+.portfolio:hover {
+    box-shadow: 0 8px 16px 0 white;
+}
+.porfoliotext {
+    padding: 2px 16px;
+}
+.portfolio img{
+    padding-top:5%;
+}
+#contactme{
+    background-color:black;
+    color:aquamarine;
+    padding:20px;
+}
+.fields{
+    display:grid;
+    grid-template-columns: 200px 200px;
+    row-gap:30px;
+    justify-content:space-evenly;
+    padding:0 300px;
+}
+.submit{
+    margin:10px 44%;
+    padding:0;
+}
+input[type=submit]{
+    border:none;
+    background-color:aquamarine;
+    color:black;
+    width:200px;
+    height:40px;
+    font-style:oblique;
+    font-size:large;
+}
+input[type=text], input[type=email], textarea{
+    background-color:rgb(84, 80, 80);
+    color:white;
+}
+.footer{
+    display:flex;
+    height: 60px;
+    justify-content:space-evenly;
+    padding:50px;
+    background-color:rgb(84, 80, 80);
+}
+.footer img{
+    height:50px;
+}
+.footer img:hover{
+    height:60px;
+    transition:0.3s;
+}
