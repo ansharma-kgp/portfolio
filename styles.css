@@ -251,3 +251,9 @@ input[type=text], input[type=email], textarea{
     height:60px;
     transition:0.3s;
 }
+
+@media only screen and (max-width: 768px){
+    .navbar a{
+        font-size: 1em;
+    }
+}
