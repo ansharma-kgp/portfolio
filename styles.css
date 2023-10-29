@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin-top:0;
     padding-top:0;
@@ -15,6 +18,7 @@ body{
 }
 .front-page{
     display:flex;
+    width: 100%;
     flex-direction:row;
 }
 
@@ -78,6 +82,7 @@ body{
     flex-direction:row;
     padding:0;
     margin:0;
+    width:100%;
 }
 .aboutpage{
     background-color:black;
@@ -146,6 +151,7 @@ body{
 }
 #skills{
     font-size:xx-large;
+    width:100%;
 }
 .skills div:hover{
     color:white;
@@ -156,6 +162,7 @@ body{
 #projects{
     display:flex;
     flex-direction:row;
+    width:100%;
     justify-content:space-evenly;
 }
 .projhead{
@@ -200,6 +207,7 @@ body{
 #contactme{
     background-color:black;
     color:aquamarine;
+    width:100%;
     padding:20px;
 }
 .fields{
@@ -230,6 +238,7 @@ input[type=text], input[type=email], textarea{
     display:flex;
     height: 60px;
     justify-content:space-evenly;
+    width:100%;
     padding:50px;
     background-color:rgb(84, 80, 80);
 }
