@@ -256,6 +256,9 @@ input[type=text], input[type=email], textarea{
     .navbar a{
         font-size: 1em;
     }
+    .fields{
+        display: block;
+    }
     input{
         display: block;
         justify-content: center;
