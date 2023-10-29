@@ -213,10 +213,10 @@ body{
 }
 .fields{
     display:grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 40% 40%;
     row-gap:30px;
     justify-content:space-evenly;
-    padding:0 300px;
+    padding:0 30%;
 }
 .submit{
     margin:10px 44%;
