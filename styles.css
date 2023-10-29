@@ -244,6 +244,7 @@ input[type=text], input[type=email], textarea{
 }
 .footer img{
     height:50px;
+    padding-bottom:20px;
 }
 .footer img:hover{
     height:60px;
