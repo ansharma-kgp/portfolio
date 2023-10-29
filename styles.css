@@ -254,9 +254,9 @@ input[type=text], input[type=email], textarea{
 
 @media only screen and (max-width: 768px){
     .navbar a{
-        font-size: 0.7em;
+        font-size: 1em;
     }
-    .fields{
+    input{
         display: block;
         justify-content: center;
     }
