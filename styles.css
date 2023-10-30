@@ -275,6 +275,16 @@ input[type=text], input[type=email], textarea{
     }
     .portfolio{
         width: 50%;
+        padding-top: 20px;
         margin: auto;
+    }
+    .front-text{
+        font-size: large;
+    }
+    .ach{
+        font-size: large;
+    }
+    #skills{
+        font-size: large;
     }
 }
