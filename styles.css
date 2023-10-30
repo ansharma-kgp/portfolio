@@ -256,6 +256,7 @@ input[type=text], input[type=email], textarea{
     body{
         font-size: 12px;
     }
+    
     .navbar a{
         font-size: 1em;
     }
@@ -286,5 +287,11 @@ input[type=text], input[type=email], textarea{
     }
     #skills{
         font-size: large;
+    }
+    .front-page img{
+        width: 60%;
+    }
+    .ach ul{
+        padding-top: 6px;
     }
 }
