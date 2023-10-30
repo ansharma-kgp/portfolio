@@ -266,4 +266,7 @@ input[type=text], input[type=email], textarea{
         display: block;
         justify-content: center;
     }
+    #projects{
+        display: block;
+    }
 }
