@@ -269,4 +269,12 @@ input[type=text], input[type=email], textarea{
     #projects{
         display: block;
     }
+    .josaa{
+        width: 50%;
+        margin: auto;
+    }
+    .portfolio{
+        width: 50%;
+        margin: auto;
+    }
 }
