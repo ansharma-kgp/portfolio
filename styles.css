@@ -92,8 +92,8 @@ body{
     font-size:x-large;
     font-family:Georgia, 'Times New Roman', Times, serif;
     width:100%;
-    background-image: url("code.png");
-    background-repeat:no-repeat;
+/*     background-image: url("code.png");
+    background-repeat:no-repeat; */
     line-height:40px;
     padding: 0 2.5%;
     padding-right:1%;
@@ -244,8 +244,8 @@ input[type=text], input[type=email], textarea{
     background-color:rgb(84, 80, 80);
 }
 .footer img{
-    height:50px;
-    padding-bottom:20px;
+    height:70px;
+    padding-bottom:30px;
 }
 .footer img:hover{
     height:60px;
